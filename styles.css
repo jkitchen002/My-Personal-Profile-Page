@@ -8,8 +8,8 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  color: black;
+  background: white;
 }
 /* Link Styles */
 
@@ -58,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/webdevelopment.jpg') no-repeat top center ;
+  background: url('images/banner.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -68,15 +68,15 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 200px;
   border-radius: 50%;
   border: 1px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(2);
-  margin: 65px;
+  margin: 30px;
+  border-radius: 0%;
 }
 .tag {
   background-color: #efefef;
@@ -96,12 +96,12 @@ header .profile-image:hover {
   max-width: 500px;
   text-align: left;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border: 1px solid #c1e5f8;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #23b2ee;
+  border-color: #05a7fc;
 }
 
 .card1 {
@@ -110,9 +110,26 @@ header .profile-image:hover {
   max-width: 1000px;
   text-align: center;
   background: #fff;
-  border-bottom: 4px solid #ccc;
+  border: 1px solid #c1e5fc;
   border-radius: 6px;
   transition: all .5s;
+}
+
+.card1:hover {
+  border-color: #05a7fc;
+}
+
+.journey{
+  float: right;
+  margin-left: 5px;
+}
+
+aside{
+  border-top: #c1e5fc solid 1px;
+  border-bottom: #c1e5fc solid 1px;
+}
+.Paragraphs{
+  text-align: left;
 }
 
 ul.skills {
